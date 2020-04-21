@@ -17,6 +17,9 @@
               <li class="nav-item active">
                 <a class="nav-link" href="#">Abrir Archivo</a>
               </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Nueva ventana</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Guardar Archivo</a>
               </li>
@@ -65,5 +68,62 @@
                 </div>  
             </div>
         </div>
+
+        <div class= "main row text-white bg-info col-md-12">
+            <div class="col-md-6">               
+                <h1>Reporte de Tokens</h1>
+                <div class="table-wrapper-scroll-y my-custom-scrollbar">
+                    <table class="table table-striped" id="Table1">
+                        <tr>
+                            <th>No</th>
+                            <th>Lexema</th>
+                            <th>Token</th>
+                            <th>Fila</th>
+                            <th>Columna</th>
+                        </tr>    
+                    </table>
+                </div>
+                
+                <style type="text/css">
+                    .my-custom-scrollbar {
+                    position: relative;
+                    height: 200px;
+                    overflow: auto;
+                    }
+                    .table-wrapper-scroll-y {
+                    display: block;
+                    }
+                  </style>
+            </div>
+            <div class="col-md-6">
+                <h1>Reporte de Errores</h1>
+                <div class="table-wrapper-scroll-y my-custom-scrollbar">
+                    <table class="table table-striped" id="Table2">
+                        <tr>
+                            <th>No</th>
+                            <th>Lexema</th>
+                            <th>Descripcion</th>
+                            <th>Tipo</th>
+                            <th>Fila</th>
+                            <th>Columna</th>
+                        </tr>    
+                    </table>
+                </div>
+                
+                <style type="text/css">
+                    .my-custom-scrollbar {
+                    position: relative;
+                    height: 200px;
+                    overflow: auto;
+                    }
+                    .table-wrapper-scroll-y {
+                    display: block;
+                    }
+                  </style>
+            </div>
+
+            
+        </div>
+        
     </body>
 </html>
